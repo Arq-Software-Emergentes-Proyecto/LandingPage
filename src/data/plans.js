@@ -5,8 +5,8 @@
 export const TRIAL_DAYS = 30
 
 export const PORTAFOLIO = {
-  pricePerDepartment: 3,
-  minimumMonthly: 450,
+  pricePerDepartment: 4,
+  minimumMonthly: 600,
   minimumDepartments: 150,
 }
 
@@ -33,7 +33,7 @@ export const PLANS = [
     name: 'Free',
     price: 0,
     maxDepartments: 15,
-    aiQueries: 150,
+    aiQueries: 300,
     support: 'emailBusinessDays',
     modules: ESSENTIAL,
     trial: true,
@@ -41,19 +41,19 @@ export const PLANS = [
   {
     id: 'essential',
     name: 'Essential',
-    price: 60,
+    price: 79,
     maxDepartments: 15,
-    aiQueries: 150,
+    aiQueries: 750,
     support: 'emailBusinessDays',
     modules: ESSENTIAL,
   },
   {
     id: 'standard',
     name: 'Standard',
-    price: 120,
+    price: 159,
     minDepartments: 16,
     maxDepartments: 40,
-    aiQueries: 400,
+    aiQueries: 2000,
     support: 'priority',
     modules: MODULES.slice(0, 9),
     highlighted: true,
@@ -61,10 +61,10 @@ export const PLANS = [
   {
     id: 'scale',
     name: 'Scale',
-    price: 200,
+    price: 289,
     minDepartments: 41,
     maxDepartments: 80,
-    aiQueries: 800,
+    aiQueries: 4000,
     support: 'agreedResponseTimes',
     modules: MODULES.slice(0, 10),
   },
@@ -75,7 +75,7 @@ export const PLANS = [
     perDepartment: PORTAFOLIO.pricePerDepartment,
     minimumMonthly: PORTAFOLIO.minimumMonthly,
     minDepartments: 81,
-    aiQueries: 2000,
+    aiQueries: 10000,
     support: 'sla',
     modules: [...MODULES],
   },

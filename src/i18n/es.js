@@ -129,7 +129,7 @@ export default {
   pricing: {
     eyebrow: 'Planes',
     title: 'Un precio claro según el tamaño de tu edificio.',
-    lead: 'Precios mensuales en soles. Cambia de plan cuando lo necesites.',
+    lead: 'Precios mensuales en soles, no incluyen IGV. Cambia de plan cuando lo necesites.',
     perMonth: '/ mes',
     perUnit: '/ depto. al mes',
     free: 'Gratis',
@@ -184,6 +184,10 @@ export default {
       {
         q: '¿Qué pasa cuando se alcanza el tope de consultas de IA?',
         a: 'El asistente deja de usar la IA hasta el mes siguiente y las consultas nuevas se derivan a la administración, así el costo nunca se sale del plan.',
+      },
+      {
+        q: '¿Los saludos o las pruebas gastan consultas de IA?',
+        a: 'No. Antes de usar la IA, BuildingFex revisa si el mensaje es una duda del edificio: los saludos, las preguntas ajenas (chistes, tareas, noticias) y los mensajes sin contenido se responden sin gastar consultas. Además, cada residente puede hacer hasta 15 consultas con IA al día, así una sola persona no agota el cupo del edificio.',
       },
       {
         q: '¿Qué pasa si no renuevo mi plan a tiempo?',

@@ -129,7 +129,7 @@ export default {
   pricing: {
     eyebrow: 'Pricing',
     title: 'Clear pricing based on the size of your building.',
-    lead: 'Monthly prices in Peruvian soles (PEN). Change plans whenever you need to.',
+    lead: 'Monthly prices in Peruvian soles (PEN), excluding IGV (sales tax). Change plans whenever you need to.',
     perMonth: '/ month',
     perUnit: '/ unit per month',
     free: 'Free',
@@ -184,6 +184,10 @@ export default {
       {
         q: 'What happens when the AI query cap is reached?',
         a: 'The assistant stops using AI until next month and new questions are handed off to management, so the cost never goes beyond your plan.',
+      },
+      {
+        q: 'Do greetings or test messages use AI queries?',
+        a: 'No. Before using AI, BuildingFex checks whether the message is a question about the building: greetings, unrelated questions (jokes, homework, news) and empty messages are answered without using queries. Each resident can also make up to 15 AI queries per day, so a single person cannot use up the building’s quota.',
       },
       {
         q: 'What if I don’t renew my plan on time?',

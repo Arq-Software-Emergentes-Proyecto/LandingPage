@@ -73,7 +73,7 @@ function departmentsLabel(plan) {
           <ul class="plan__features">
             <li>
               <AppIcon name="sparkle" :size="16" />
-              <span>{{ fmt(t.pricing.aiQueries, { count: plan.aiQueries }) }}</span>
+              <span>{{ fmt(t.pricing.aiQueries, { count: plan.aiQueries.toLocaleString('en-US') }) }}</span>
             </li>
             <li v-for="module in MODULES.filter((m) => plan.modules.includes(m))" :key="module">
               <AppIcon name="check" :size="16" />
