@@ -54,9 +54,8 @@ const { t } = useI18n()
 .hero {
   position: relative;
   padding: 4.5rem 0 5rem;
-  background:
-    radial-gradient(circle at 85% 10%, rgba(var(--bf-navy-rgb), 0.1), transparent 45%),
-    linear-gradient(180deg, var(--bf-bg-tint) 0%, var(--bf-navy-soft) 100%);
+  background: var(--bf-bg);
+  border-bottom: 1px solid var(--bf-border);
   overflow: hidden;
 }
 

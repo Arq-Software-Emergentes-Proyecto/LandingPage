@@ -30,9 +30,7 @@ const { t } = useI18n()
 .cta {
   padding: 3.5rem 2rem;
   border-radius: var(--bf-radius-lg);
-  background:
-    radial-gradient(circle at 90% 0%, rgba(255, 255, 255, 0.12), transparent 40%),
-    var(--bf-navy);
+  background: var(--bf-navy);
   color: #fff;
   text-align: center;
 }
