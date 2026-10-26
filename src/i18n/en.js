@@ -1,0 +1,213 @@
+export default {
+  a11y: {
+    mainNav: 'Main navigation',
+    skip: 'Skip to content',
+    openMenu: 'Open menu',
+    closeMenu: 'Close menu',
+    language: 'Language',
+    home: 'BuildingFex, go to top',
+  },
+  nav: {
+    features: 'Features',
+    how: 'How it works',
+    ai: 'AI assistant',
+    pricing: 'Pricing',
+    faq: 'FAQ',
+    login: 'Sign in',
+    start: 'Start free',
+  },
+  hero: {
+    eyebrow: 'For boards, managers and residents',
+    title: 'Your condominium, organized in one place.',
+    lead:
+      'BuildingFex brings together collections, common-area bookings, incidents, announcements and an AI assistant that answers with your building’s own rules.',
+    primary: 'Start your 30-day free trial',
+    secondary: 'See pricing',
+    resident: 'Are you a resident? Sign in here',
+    points: ['Online payments with Mercado Pago', 'QR guest passes', 'AI-assisted incidents'],
+    imageAlt: 'BuildingFex manager dashboard with incidents, bookings and building delinquency',
+  },
+  features: {
+    eyebrow: 'Features',
+    title: 'Everything the building needs, without spreadsheets or scattered chats.',
+    lead: 'Each module is designed around how condominiums are actually run in Peru.',
+    items: [
+      {
+        icon: 'wallet',
+        title: 'Collections',
+        text: 'Monthly maintenance bills, online payments with Mercado Pago, PDF receipts and delinquency on a traffic-light calendar.',
+      },
+      {
+        icon: 'calendar',
+        title: 'Common areas',
+        text: 'Bookings without overlaps, with capacity, daily limits and spaces under maintenance. Guests get in with a QR pass.',
+      },
+      {
+        icon: 'flag',
+        title: 'Incidents',
+        text: 'Residents report the issue, AI suggests category and priority, you assign a provider, and nothing sits unattended for more than 48 hours.',
+      },
+      {
+        icon: 'chat',
+        title: 'AI assistant',
+        text: 'Answers residents using the building’s rules and minutes, cites the source and hands off to management when needed.',
+      },
+      {
+        icon: 'megaphone',
+        title: 'Announcements & documents',
+        text: 'Notices with priority and expiry, and official documents always in their current version for the whole community.',
+      },
+      {
+        icon: 'users',
+        title: 'Residents & staff',
+        text: 'Import the roster from Excel, invite each resident with a link and organize staff with shifts and tasks.',
+      },
+    ],
+  },
+  audience: {
+    eyebrow: 'One platform, two experiences',
+    title: 'Built for those who manage the building and those who live in it.',
+    admin: {
+      title: 'For the board and the manager',
+      items: [
+        'Issue the month’s bills and see who is up to date.',
+        'Handle incidents, assign providers and create tasks for your staff.',
+        'Publish announcements and upload the rules or minutes.',
+        'Review expenses, income and the building’s balance.',
+      ],
+    },
+    resident: {
+      title: 'For residents',
+      items: [
+        'Pay their fee online and download the receipt.',
+        'Book the pool or the grill and share the QR with their guests.',
+        'Report an issue and follow it until it is resolved.',
+        'Ask the assistant when the fee is due or when a space is open.',
+      ],
+    },
+  },
+  incidents: {
+    eyebrow: 'Incidents',
+    title: 'No issue gets lost in the building’s group chat.',
+    text: 'Every report keeps its history, its provider and its status. If an incident is still unassigned after 48 hours, it is escalated and shows up first on your dashboard.',
+    bullets: [
+      'Category and priority suggested by AI, always confirmed by a person.',
+      'A resolution comment is required, so you know what was done.',
+      'Staff tasks linked to the incident: when the last one is completed, it is resolved.',
+    ],
+    imageAlt: 'Incident list with status, provider and one escalated incident',
+  },
+  ai: {
+    eyebrow: 'AI assistant',
+    title: 'Instant answers, based on your building’s rules.',
+    text: 'The assistant reads the internal rules and minutes uploaded by management and answers residents showing where each answer comes from. If it cannot find the information, it hands the question off to management.',
+    bullets: [
+      'If a resident reports an issue in the chat, the incident is created and they are notified when it is resolved.',
+      'The chat closes only when the resident confirms their question was answered.',
+      'Each plan has a monthly query cap, so the cost is always predictable.',
+    ],
+    imageAlt: 'Resident help center with frequently asked questions and the BuildingFex assistant',
+  },
+  how: {
+    eyebrow: 'How it works',
+    title: 'Get up and running in three steps.',
+    steps: [
+      {
+        title: 'Create your account',
+        text: 'Sign up as a manager and register your building. The first 30 days are free.',
+      },
+      {
+        title: 'Add your residents',
+        text: 'Import the roster from Excel or CSV and invite each resident with a single-use link.',
+      },
+      {
+        title: 'Manage from day one',
+        text: 'Issue bills, publish announcements, open bookings and handle incidents from the same dashboard.',
+      },
+    ],
+  },
+  pricing: {
+    eyebrow: 'Pricing',
+    title: 'Clear pricing based on the size of your building.',
+    lead: 'Monthly prices in Peruvian soles (PEN). Change plans whenever you need to.',
+    perMonth: '/ month',
+    perUnit: '/ unit per month',
+    free: 'Free',
+    trial: '{days}-day trial',
+    popular: 'Most popular',
+    upTo: 'Up to {max} units',
+    range: '{min} to {max} units',
+    from: 'More than 80 units or several buildings',
+    perDepartment: 'S/ {price} per unit per month',
+    minimum: 'Minimum S/ {min} per month',
+    aiQueries: '{count} AI queries per month',
+    cta: 'Choose plan',
+    ctaFree: 'Start trial',
+    includes: 'Includes',
+    modules: {
+      webConsole: 'Web console',
+      commonAreas: 'Common areas & bookings',
+      collections: 'Collections with Mercado Pago',
+      announcements: 'Announcements',
+      documents: 'Documents',
+      visits: 'QR guest passes',
+      aiAssistant: 'AI assistant',
+      debtVisibility: 'Debt visibility',
+      aiIncidentClassification: 'AI incident triage',
+      implementationAssistance: 'Implementation assistance',
+      multiBuildingConsole: 'Several buildings',
+    },
+    support: {
+      emailBusinessDays: 'Email support on business days',
+      priority: 'Priority operational support',
+      agreedResponseTimes: 'Support with agreed response times',
+      sla: 'Support with SLA',
+    },
+    note: 'When the trial ends you choose a paid plan. Subscription payments are made with Mercado Pago.',
+  },
+  faq: {
+    eyebrow: 'FAQ',
+    title: 'What people usually ask us.',
+    items: [
+      {
+        q: 'Can I try BuildingFex before paying?',
+        a: 'Yes. The Free plan gives you 30 days at no cost with the essential modules. You can also explore a sample building by signing in with the user “test” and the password “123456”: the data is fictional, resets on every visit and never touches a real condominium.',
+      },
+      {
+        q: 'How do residents pay their fee?',
+        a: 'From their dashboard, with Mercado Pago. The payment is confirmed automatically and the resident can download a PDF receipt.',
+      },
+      {
+        q: 'Is my building’s data kept separate from others?',
+        a: 'Yes. Each condominium only sees its own information; the platform rejects any attempt to access another building’s data.',
+      },
+      {
+        q: 'What happens when the AI query cap is reached?',
+        a: 'The assistant stops using AI until next month and new questions are handed off to management, so the cost never goes beyond your plan.',
+      },
+      {
+        q: 'What if I don’t renew my plan on time?',
+        a: 'You get a few grace days to pay the new period. If it is not renewed, the account is suspended until you pay; your information is kept.',
+      },
+      {
+        q: 'Do I need to install anything?',
+        a: 'No. BuildingFex runs in the browser, on both computers and phones.',
+      },
+    ],
+  },
+  cta: {
+    title: 'Ready to get your condominium organized?',
+    text: 'Create your account in minutes and try BuildingFex free for 30 days.',
+    primary: 'Start free',
+    secondary: 'Sign in',
+  },
+  footer: {
+    tagline: 'Condominium and building management for boards, managers and residents.',
+    product: 'Product',
+    access: 'Access',
+    admin: 'Managers',
+    resident: 'Residents',
+    register: 'Create account',
+    rights: 'All rights reserved.',
+  },
+}

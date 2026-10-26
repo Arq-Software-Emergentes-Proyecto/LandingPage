@@ -1,0 +1,213 @@
+export default {
+  a11y: {
+    mainNav: 'Navegación principal',
+    skip: 'Saltar al contenido',
+    openMenu: 'Abrir menú',
+    closeMenu: 'Cerrar menú',
+    language: 'Idioma',
+    home: 'BuildingFex, ir al inicio',
+  },
+  nav: {
+    features: 'Funciones',
+    how: 'Cómo funciona',
+    ai: 'Asistente IA',
+    pricing: 'Planes',
+    faq: 'Preguntas',
+    login: 'Iniciar sesión',
+    start: 'Empieza gratis',
+  },
+  hero: {
+    eyebrow: 'Para juntas, administradores y residentes',
+    title: 'Tu condominio, ordenado en un solo lugar.',
+    lead:
+      'BuildingFex reúne cobranzas, reservas de áreas comunes, incidencias, comunicados y un asistente de IA que responde con el reglamento de tu edificio.',
+    primary: 'Empieza gratis por 30 días',
+    secondary: 'Ver planes',
+    resident: '¿Eres residente? Ingresa aquí',
+    points: ['Pagos en línea con Mercado Pago', 'Invitados con código QR', 'Incidencias con IA'],
+    imageAlt: 'Panel del administrador de BuildingFex con incidencias, reservas y morosidad del edificio',
+  },
+  features: {
+    eyebrow: 'Funciones',
+    title: 'Todo lo que el edificio necesita, sin hojas de cálculo ni chats sueltos.',
+    lead: 'Cada módulo está pensado para la forma en que se administra un condominio en el Perú.',
+    items: [
+      {
+        icon: 'wallet',
+        title: 'Cobranzas',
+        text: 'Recibos de mantenimiento cada mes, pagos en línea con Mercado Pago, comprobantes en PDF y morosidad en un calendario semaforizado.',
+      },
+      {
+        icon: 'calendar',
+        title: 'Áreas comunes',
+        text: 'Reservas sin cruces de horario, con aforo, cupo diario y espacios en mantenimiento. Los invitados entran con un pase QR.',
+      },
+      {
+        icon: 'flag',
+        title: 'Incidencias',
+        text: 'El residente reporta la falla, la IA sugiere categoría y prioridad, tú asignas un proveedor y nada queda más de 48 horas sin atender.',
+      },
+      {
+        icon: 'chat',
+        title: 'Asistente de IA',
+        text: 'Responde a los residentes con el reglamento y las actas del edificio, cita la fuente y deriva a la administración cuando hace falta.',
+      },
+      {
+        icon: 'megaphone',
+        title: 'Comunicados y documentos',
+        text: 'Avisos con prioridad y vigencia, y documentos oficiales siempre en su versión vigente para toda la comunidad.',
+      },
+      {
+        icon: 'users',
+        title: 'Residentes y equipo',
+        text: 'Importa el padrón desde Excel, invita a cada residente con un enlace y organiza al personal con turnos y tareas.',
+      },
+    ],
+  },
+  audience: {
+    eyebrow: 'Una plataforma, dos experiencias',
+    title: 'Hecha para quien administra y para quien vive en el edificio.',
+    admin: {
+      title: 'Para la junta y el administrador',
+      items: [
+        'Genera los recibos del mes y ve quién está al día.',
+        'Atiende incidencias, asigna proveedores y crea tareas para tu equipo.',
+        'Publica comunicados y sube el reglamento o las actas.',
+        'Revisa gastos, ingresos y el balance del edificio.',
+      ],
+    },
+    resident: {
+      title: 'Para el residente',
+      items: [
+        'Paga su cuota en línea y descarga su comprobante.',
+        'Reserva la piscina o la parrilla y comparte el QR con sus invitados.',
+        'Reporta una falla y sigue su estado hasta que se resuelve.',
+        'Pregunta al asistente cuándo vence la cuota o cuál es el horario de un espacio.',
+      ],
+    },
+  },
+  incidents: {
+    eyebrow: 'Incidencias',
+    title: 'Ninguna falla se pierde en el chat del edificio.',
+    text: 'Cada reporte queda con su historial, su proveedor y su estado. Si una incidencia sigue sin asignar después de 48 horas, se escala y aparece primero en tu panel.',
+    bullets: [
+      'Categoría y prioridad sugeridas por IA, siempre confirmadas por una persona.',
+      'Comentario obligatorio al resolver, para saber qué se hizo.',
+      'Tareas para el personal ligadas a la incidencia: al completar la última, queda resuelta.',
+    ],
+    imageAlt: 'Lista de incidencias con su estado, proveedor y una incidencia escalada',
+  },
+  ai: {
+    eyebrow: 'Asistente de IA',
+    title: 'Respuestas al instante, con el reglamento de tu edificio.',
+    text: 'El asistente lee el reglamento interno y las actas que sube la administración y responde a los residentes indicando de dónde sale cada respuesta. Si no encuentra la información, deriva la consulta a la administración.',
+    bullets: [
+      'Si el residente reporta una falla en el chat, se crea la incidencia y se le avisa cuando se resuelve.',
+      'El chat se cierra solo cuando el residente confirma que se resolvió su duda.',
+      'Cada plan tiene un tope mensual de consultas, así el costo siempre es predecible.',
+    ],
+    imageAlt: 'Centro de ayuda del residente con preguntas frecuentes y el asistente BuildingFex',
+  },
+  how: {
+    eyebrow: 'Cómo funciona',
+    title: 'Empieza a operar en tres pasos.',
+    steps: [
+      {
+        title: 'Crea tu cuenta',
+        text: 'Regístrate como administrador y registra tu edificio. Los primeros 30 días son gratis.',
+      },
+      {
+        title: 'Carga a tus residentes',
+        text: 'Importa el padrón desde Excel o CSV e invita a cada residente con un enlace de un solo uso.',
+      },
+      {
+        title: 'Administra desde el primer día',
+        text: 'Genera recibos, publica comunicados, abre las reservas y atiende incidencias desde el mismo panel.',
+      },
+    ],
+  },
+  pricing: {
+    eyebrow: 'Planes',
+    title: 'Un precio claro según el tamaño de tu edificio.',
+    lead: 'Precios mensuales en soles. Cambia de plan cuando lo necesites.',
+    perMonth: '/ mes',
+    perUnit: '/ depto. al mes',
+    free: 'Gratis',
+    trial: 'Prueba de {days} días',
+    popular: 'Más elegido',
+    upTo: 'Hasta {max} departamentos',
+    range: 'De {min} a {max} departamentos',
+    from: 'Más de 80 departamentos o varios edificios',
+    perDepartment: 'S/ {price} por departamento al mes',
+    minimum: 'Mínimo S/ {min} al mes',
+    aiQueries: '{count} consultas de IA al mes',
+    cta: 'Elegir plan',
+    ctaFree: 'Empezar prueba',
+    includes: 'Incluye',
+    modules: {
+      webConsole: 'Consola web',
+      commonAreas: 'Áreas comunes y reservas',
+      collections: 'Cobranzas con Mercado Pago',
+      announcements: 'Comunicados',
+      documents: 'Documentos',
+      visits: 'Invitados con QR',
+      aiAssistant: 'Asistente de IA',
+      debtVisibility: 'Visibilidad de deudas',
+      aiIncidentClassification: 'Clasificación de incidencias con IA',
+      implementationAssistance: 'Asistencia en la implementación',
+      multiBuildingConsole: 'Varios edificios',
+    },
+    support: {
+      emailBusinessDays: 'Soporte por correo en días hábiles',
+      priority: 'Soporte operativo prioritario',
+      agreedResponseTimes: 'Soporte con tiempos de respuesta acordados',
+      sla: 'Soporte con SLA',
+    },
+    note: 'Al terminar la prueba eliges un plan de pago. El pago de la suscripción se hace con Mercado Pago.',
+  },
+  faq: {
+    eyebrow: 'Preguntas frecuentes',
+    title: 'Lo que suelen preguntarnos.',
+    items: [
+      {
+        q: '¿Puedo probar BuildingFex antes de pagar?',
+        a: 'Sí. El plan Free te da 30 días gratis con los módulos esenciales. También puedes ver un edificio de ejemplo entrando con el usuario «test» y la contraseña «123456»: son datos ficticios que se reinician y no tocan ningún condominio real.',
+      },
+      {
+        q: '¿Cómo pagan los residentes su cuota?',
+        a: 'Desde su panel, con Mercado Pago. El pago se confirma automáticamente y el residente puede descargar su comprobante en PDF.',
+      },
+      {
+        q: '¿Los datos de mi edificio están separados de los demás?',
+        a: 'Sí. Cada condominio solo ve su propia información; la plataforma rechaza cualquier intento de acceder a datos de otro edificio.',
+      },
+      {
+        q: '¿Qué pasa cuando se alcanza el tope de consultas de IA?',
+        a: 'El asistente deja de usar la IA hasta el mes siguiente y las consultas nuevas se derivan a la administración, así el costo nunca se sale del plan.',
+      },
+      {
+        q: '¿Qué pasa si no renuevo mi plan a tiempo?',
+        a: 'Tienes unos días de gracia para pagar el nuevo periodo. Si no se renueva, la cuenta queda suspendida hasta que pagues; tu información se conserva.',
+      },
+      {
+        q: '¿Necesito instalar algo?',
+        a: 'No. BuildingFex funciona en el navegador, tanto en la computadora como en el celular.',
+      },
+    ],
+  },
+  cta: {
+    title: '¿Listo para ordenar tu condominio?',
+    text: 'Crea tu cuenta en minutos y prueba BuildingFex gratis durante 30 días.',
+    primary: 'Empieza gratis',
+    secondary: 'Iniciar sesión',
+  },
+  footer: {
+    tagline: 'Gestión de condominios y edificios para juntas, administradores y residentes.',
+    product: 'Producto',
+    access: 'Acceso',
+    admin: 'Administradores',
+    resident: 'Residentes',
+    register: 'Crear cuenta',
+    rights: 'Todos los derechos reservados.',
+  },
+}

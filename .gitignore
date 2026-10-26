@@ -1,0 +1,13 @@
+node_modules/
+dist/
+
+# Variables de entorno locales (nunca se suben)
+.env
+.env.*
+!.env.example
+
+# Editores y sistema
+.idea/
+.vscode/
+*.log
+.DS_Store
