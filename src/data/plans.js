@@ -33,7 +33,7 @@ export const PLANS = [
     name: 'Free',
     price: 0,
     maxDepartments: 15,
-    aiQueries: 300,
+    aiQueries: 150,
     support: 'emailBusinessDays',
     modules: ESSENTIAL,
     trial: true,
