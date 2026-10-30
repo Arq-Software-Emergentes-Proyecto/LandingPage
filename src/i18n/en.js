@@ -74,6 +74,7 @@ export default {
         'Handle incidents, assign providers and create tasks for your staff.',
         'Publish announcements and upload the rules or minutes.',
         'Review expenses, income and the building’s balance.',
+        'Assign the manager or invite the board, who see the condominium’s information in read-only mode.',
       ],
     },
     resident: {
@@ -155,7 +156,7 @@ export default {
       debtVisibility: 'Debt visibility',
       aiIncidentClassification: 'AI incident triage',
       implementationAssistance: 'Implementation assistance',
-      multiBuildingConsole: 'Several buildings',
+      multiBuildingConsole: 'Several buildings in one account',
     },
     support: {
       emailBusinessDays: 'Email support on business days',
@@ -171,7 +172,15 @@ export default {
     items: [
       {
         q: 'Can I try BuildingFex before paying?',
-        a: 'Yes. The Free plan gives you 30 days at no cost with the essential modules. You can also explore a sample building by signing in with the user “test” and the password “123456”: the data is fictional, resets on every visit and never touches a real condominium.',
+        a: 'Yes. The Free plan gives you 30 days at no cost with the essential modules. You can also explore a sample building by signing in with the user “test” and the password “123456”, or see it as the board with the user “junta” and the same password: the data is fictional, resets on every visit and never touches a real condominium.',
+      },
+      {
+        q: 'Who creates the account: the board or the management company?',
+        a: 'Either one. If the board creates it, it assigns the manager (a person or the company) from “Board & access”. If the management company creates it, it invites the board to see collections, the balance, incidents and documents in read-only mode. Each invitation is a personal, single-use link.',
+      },
+      {
+        q: 'Can I manage several buildings with the same account?',
+        a: 'Yes, with the Portfolio plan: S/ 4 per unit per month (minimum S/ 600), adding up all your buildings in one subscription. Each building is a separate condominium with its own residents, fees and incidents, and you switch between them from the menu.',
       },
       {
         q: 'How do residents pay their fee?',

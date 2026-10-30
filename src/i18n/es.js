@@ -74,6 +74,7 @@ export default {
         'Atiende incidencias, asigna proveedores y crea tareas para tu equipo.',
         'Publica comunicados y sube el reglamento o las actas.',
         'Revisa gastos, ingresos y el balance del edificio.',
+        'Asigna al administrador o invita a la junta directiva, que ve la información del condominio en solo lectura.',
       ],
     },
     resident: {
@@ -155,7 +156,7 @@ export default {
       debtVisibility: 'Visibilidad de deudas',
       aiIncidentClassification: 'Clasificación de incidencias con IA',
       implementationAssistance: 'Asistencia en la implementación',
-      multiBuildingConsole: 'Varios edificios',
+      multiBuildingConsole: 'Varios edificios en una cuenta',
     },
     support: {
       emailBusinessDays: 'Soporte por correo en días hábiles',
@@ -171,7 +172,15 @@ export default {
     items: [
       {
         q: '¿Puedo probar BuildingFex antes de pagar?',
-        a: 'Sí. El plan Free te da 30 días gratis con los módulos esenciales. También puedes ver un edificio de ejemplo entrando con el usuario «test» y la contraseña «123456»: son datos ficticios que se reinician y no tocan ningún condominio real.',
+        a: 'Sí. El plan Free te da 30 días gratis con los módulos esenciales. También puedes ver un edificio de ejemplo entrando con el usuario «test» y la contraseña «123456», o verlo como la junta directiva con el usuario «junta» y la misma contraseña: son datos ficticios que se reinician y no tocan ningún condominio real.',
+      },
+      {
+        q: '¿Quién crea la cuenta: la junta o la empresa administradora?',
+        a: 'Cualquiera de las dos. Si la crea la junta directiva, desde «Junta y accesos» asigna al administrador (una persona o la empresa) que gestionará el edificio. Si la crea la empresa administradora, invita a la junta para que vea la cobranza, el balance, las incidencias y los documentos en solo lectura. Cada invitación es un enlace personal de un solo uso.',
+      },
+      {
+        q: '¿Puedo administrar varios edificios con la misma cuenta?',
+        a: 'Sí, con el plan Portafolio: S/ 4 por departamento al mes (mínimo S/ 600), sumando todos tus edificios en una sola suscripción. Cada edificio es un condominio aparte, con sus propios residentes, cuotas e incidencias, y cambias de uno a otro desde el menú.',
       },
       {
         q: '¿Cómo pagan los residentes su cuota?',
