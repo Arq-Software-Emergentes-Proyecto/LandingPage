@@ -214,6 +214,19 @@ export default {
     primary: 'Start free',
     secondary: 'Sign in',
   },
+  social: {
+    eyebrow: 'Community',
+    title: 'Follow us',
+    lead: 'Platform news, tips for running your building and stories from boards already using BuildingFex.',
+    follow: 'Follow',
+    newTab: 'opens in a new tab',
+    networks: {
+      instagram: 'News, tips and the team behind the product.',
+      facebook: 'Updates, events and a community of managers.',
+      tiktok: 'Short videos: learn every feature in seconds.',
+      linkedin: 'Company news and customer stories.',
+    },
+  },
   footer: {
     tagline: 'Condominium and building management for boards, managers and residents.',
     product: 'Product',
@@ -221,6 +234,7 @@ export default {
     admin: 'Managers',
     resident: 'Residents',
     register: 'Create account',
+    social: 'Social media',
     rights: 'All rights reserved.',
   },
 }

@@ -8,6 +8,7 @@ import HowSection from './components/HowSection.vue'
 import PricingSection from './components/PricingSection.vue'
 import FaqSection from './components/FaqSection.vue'
 import CtaSection from './components/CtaSection.vue'
+import SocialSection from './components/SocialSection.vue'
 import SiteFooter from './components/SiteFooter.vue'
 import { useI18n } from './i18n/index.js'
 
@@ -45,6 +46,7 @@ const { t } = useI18n()
     <PricingSection />
     <FaqSection />
     <CtaSection />
+    <SocialSection />
   </main>
   <SiteFooter />
 </template>

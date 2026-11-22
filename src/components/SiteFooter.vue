@@ -1,6 +1,7 @@
 <script setup>
-import { appLinks } from '@/config.js'
+import { appLinks, socialLinks } from '@/config.js'
 import { useI18n } from '@/i18n/index.js'
+import SocialIcon from './SocialIcon.vue'
 
 const { t } = useI18n()
 const year = new Date().getFullYear()
@@ -12,6 +13,21 @@ const year = new Date().getFullYear()
       <div>
         <img src="/logo-buildingfex.png" alt="BuildingFex" class="footer__logo" width="148" height="45" loading="lazy" />
         <p class="footer__tagline">{{ t.footer.tagline }}</p>
+        <ul v-if="socialLinks.length" class="footer__social" :aria-label="t.footer.social">
+          <li v-for="account in socialLinks" :key="account.key">
+            <a
+              :href="account.url"
+              class="footer__social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              :style="{ '--brand': account.color }"
+              :aria-label="`${account.name} (${t.social.newTab})`"
+              :title="account.name"
+            >
+              <SocialIcon :name="account.key" :size="18" />
+            </a>
+          </li>
+        </ul>
       </div>
       <nav :aria-label="t.footer.product">
         <h3 class="footer__heading">{{ t.footer.product }}</h3>
@@ -56,6 +72,42 @@ const year = new Date().getFullYear()
   margin-top: 0.9rem;
   max-width: 22rem;
   color: var(--bf-text-secondary);
+}
+
+.footer__social {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.25rem 0 0;
+  padding: 0;
+}
+
+/* Gris como el resto del pie; toma el color de la marca al pasar el cursor. */
+.footer__social-link {
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid var(--bf-border);
+  border-radius: 50%;
+  background: var(--bf-bg);
+  color: var(--bf-text-secondary);
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.footer__social-link:hover {
+  border-color: var(--brand);
+  background: var(--brand);
+  color: #fff;
+}
+
+.footer__social-link:focus-visible {
+  outline: 2px solid var(--bf-navy);
+  outline-offset: 2px;
 }
 
 .footer__heading {

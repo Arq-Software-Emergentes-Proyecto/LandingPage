@@ -214,6 +214,19 @@ export default {
     primary: 'Empieza gratis',
     secondary: 'Iniciar sesión',
   },
+  social: {
+    eyebrow: 'Comunidad',
+    title: 'Síguenos en redes',
+    lead: 'Novedades de la plataforma, consejos para administrar tu edificio y casos de juntas que ya usan BuildingFex.',
+    follow: 'Seguir',
+    newTab: 'se abre en una pestaña nueva',
+    networks: {
+      instagram: 'Novedades, tips y el día a día del equipo.',
+      facebook: 'Avisos, eventos y comunidad de administradores.',
+      tiktok: 'Videos cortos: aprende a usar cada función.',
+      linkedin: 'Noticias de la empresa y casos de éxito.',
+    },
+  },
   footer: {
     tagline: 'Gestión de condominios y edificios para juntas, administradores y residentes.',
     product: 'Producto',
@@ -221,6 +234,7 @@ export default {
     admin: 'Administradores',
     resident: 'Residentes',
     register: 'Crear cuenta',
+    social: 'Redes sociales',
     rights: 'Todos los derechos reservados.',
   },
 }
